@@ -1,0 +1,107 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    font-size: 12px;
+
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    min-height: 100vh;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+
+}
+
+#users {
+
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border: 3px solid #ddd;
+    width: 100%;
+
+  }
+
+  #users td, #students th {
+    border: 1px solid #ddd;
+    padding: 5px;
+    text-align: start;
+
+  }
+
+  #users tr:nth-child(even){background-color: #f2f2f2;}
+
+  #users tr:hover {background-color: #ddd;}
+
+  #users th {
+    padding: 5px;
+    background-color: gray;
+    color: white;
+    text-align: start;
+
+  }
+
+  .userinfo-wrapper{
+
+      display: flex;
+      width: 70vw;
+      height: 70vh;
+      flex-direction: column;
+      gap:2rem;
+      padding: 40px;
+      background-color: #FEFCFE;
+      box-shadow: 5px 10px #888888;
+
+  }
+  .addbtn{
+      background-color: #2878C9;
+      color: white;
+      padding: 2px;
+      border-radius: 3px;
+      border:#2878C9;
+      width: 30%;
+    }
+
+  .removebtn{
+    background-color: #D52122;
+    color: white;
+    padding: 1px;
+}
+.delete{
+
+    font-weight: bolder;
+    font-size: 15px;
+    justify-content: flex-start;
+    display: flex;
+    width: fit-content;
+    width: 300px;
+}
+.user-inputs{
+    display: flex;
+    flex-direction: row;
+    width:   63vw;
+    justify-content: stretch;
+
+    gap:1rem;
+
+
+
+}
+
+input[type=text] {
+    padding: 2px;
+    background-color: #FEFCFE;
+    width: 35%;
+}
+input[type=email] {
+    padding: 2px;
+    background-color: #FEFCFE;
+    width: 35%;
+}
+
