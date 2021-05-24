@@ -29,7 +29,7 @@ body {
   }
 
   #users td, #students th {
-    border: 1px solid #ddd;
+    border: 2px solid #ddd;
     padding: 5px;
     text-align: start;
     height: 35px;
@@ -57,7 +57,7 @@ body {
       gap:2rem;
       padding: 40px;
       background-color: #FEFCFE;
-      box-shadow: 5px 10px #888888;
+
 
   }
   .addbtn{
